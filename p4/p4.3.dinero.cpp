@@ -1,8 +1,17 @@
 #include <iostream>
 using namespace std;
 
- /*Pre: dividendo y divisor sean valores int */
- /*Post: retorne el cociente y resto de la división */
+/*
+ * divisionEntera(dato dividendo : Entero,
+ * 				  dato divisor   : Entero,
+ *                dato_resultado cociente : Entero,
+ *                dato_resultado resto    : Entero): accion de calcular la división entera
+ *
+ * PRE  {dividendo, divisor : Entero, divisor > 0 } 
+ * POST {cociente, resto    : Entero,
+ *       cociente devuelve el cociente de la división
+ *       resto    devuelve el resto de la división}
+ */
 void divisionEntera (int dividendo,int divisor,
 			         int &cociente, int &resto)
 {

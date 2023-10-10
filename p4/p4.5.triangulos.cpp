@@ -27,6 +27,8 @@ float sqr (float x)
 	return (x*x);
 }
 
+/* Pre: p1, p2 son Puntos de un espacio euclídeo bidimensional*/
+/* Post: Devuelve la distancia entre ambos puntos */
 float distancia(Punto p1, Punto p2){
 	/* cálculo de la longitud del segmento definido por los dos puntos */
 	return (sqrt ( sqr (p1.abscisa - p2.abscisa) + sqr (p1.ordenada - p2.ordenada)));
